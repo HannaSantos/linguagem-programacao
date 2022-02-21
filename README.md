@@ -1,5 +1,5 @@
 # linguagem-programacao
 
-# Exercicíos 
+ Exercicíos 
 
 Pequeno treinos sobre JAVA
