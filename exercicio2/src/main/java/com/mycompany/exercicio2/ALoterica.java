@@ -1,9 +1,21 @@
+/*
+Crie uma classe chamada “Loteria” que:
+
+Solicite um número entre 0 e 10 para o usuário.
+Tente advinhar o número digitado através de números randômicos.
+A cada iteração exiba o número sorteado. 
+Quando acontecer o “acerto” se a quantidade de vezes necessárias for: 
+
+          Até 3: exiba "Você é MUITO sortudo"
+          Entre 4 e 10: exiba "Você é sortudo"
+          Mais de 10: exiba "É melhor você parar de apostar e ir trabalhar"
+ */
 package com.mycompany.exercicio2;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Loteria {
+public class ALoterica {
 
     public static void main(String[] args) {
 
@@ -30,22 +42,6 @@ public class Loteria {
                 System.out.println("Você é sortudo, "
                         + contador + " Tentativas");
                 break;
-            case 6:
-                System.out.println("Você é sortudo, "
-                        + contador + " Tentativas");
-                break;
-            case 7:
-                System.out.println("Você é sortudo, "
-                        + contador + " Tentativas");
-                break;
-            case 8:
-                System.out.println("Você é sortudo, "
-                        + contador + " Tentativas");
-                break;
-            case 9:
-                System.out.println("Você é sortudo, "
-                        + contador + " Tentativas");
-                break;
             case 10:
                 System.out.println("Você é sortudo, "
                         + contador + " Tentativas");
@@ -57,3 +53,4 @@ public class Loteria {
     }
 
 }
+

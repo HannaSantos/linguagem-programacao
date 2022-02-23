@@ -1,8 +1,19 @@
+/*
+Elaborar um programa java que simule a autenticação de um usuário em um sistema. 
+Solicite o nome de usuário e senha.
+
+Enquanto o nome for diferente de “admin” e a senha for 
+diferente de “#Bandtec” exiba: “Login e/ou senha inválidos” e 
+solicite novamente.
+
+Caso o usuário digite os campos corretamente, 
+exiba: “Login realizado com sucesso”
+ */
 package com.mycompany.exercicio2;
 
 import java.util.Scanner;
 
-public class Autenticacao {
+public class BAutenticacao {
 
     public static void main(String[] args) {
 
@@ -28,3 +39,4 @@ public class Autenticacao {
     }
 
 }
+
