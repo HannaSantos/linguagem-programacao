@@ -5,7 +5,7 @@ Exiba todos os números pares de 0 a 40 usando while
  */
 package com.mycompany.exercicio2;
 
-public class DNumerosPares {
+public class ENumerosPares {
 
     public static void main(String[] args) {
         

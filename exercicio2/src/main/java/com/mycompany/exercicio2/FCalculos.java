@@ -12,6 +12,6 @@ O programa deverá calcular e exibir o valor de 2 elevado a 5 = 32.
  */
 package com.mycompany.exercicio2;
 
-public class ECalculos {
+public class FCalculos {
     
 }

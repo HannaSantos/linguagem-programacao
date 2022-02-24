@@ -13,7 +13,7 @@ package com.mycompany.exercicio2;
 
 import java.util.Scanner;
 
-public class BAutenticacao {
+public class CAutenticacao {
 
     public static void main(String[] args) {
 

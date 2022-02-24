@@ -5,7 +5,7 @@ Usando “for”, exiba todos os números ímpares entre 0 e 90.
  */
 package com.mycompany.exercicio2;
 
-public class CNumerosImpares {
+public class DNumerosImpares {
    
     public static void main(String[] args) {
         
