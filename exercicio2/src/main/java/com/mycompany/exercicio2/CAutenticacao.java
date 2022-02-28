@@ -29,7 +29,7 @@ public class CAutenticacao {
         System.out.println("Entre com sua senha: ");
         String senha = leitorSenha.nextLine();
         
-        while (senha.equals(senhaPadrao) && usuario.equals(usuarioPadrao)) {            
+        while (senha.equals(senhaPadrao) || usuario.equals(usuarioPadrao)) {            
            System.out.println(usuario + " opa, bem vindo ao acesso");
             senha = leitorSenha.nextLine();
         }
